@@ -20,15 +20,18 @@ const apiMap = {
 
 const EventsTimeline = ({type}) => {
   const contentStyle1 = {
-    background: "linear-gradient(135deg, #dadbf8,#d6a4ac)",
+    // background: "linear-gradient(135deg, #dadbf8,#d6a4ac)",
+    background:" linear-gradient(135deg, #d3d3d3, #f0f0f0)",
     color: "#1f2937",
     boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
     borderRadius: "10px",
   };
 
   const contentStyle2 = {
-    background: "linear-gradient(135deg,#99a5df, #6dede5)",
+    // background:" linear-gradient(135deg,rgb(218, 201, 201),rgb(218, 201, 201), #ffffff)",
+    background:" linear-gradient(135deg, #d3d3d3, #f0f0f0)",
     color: "#1f2937",
+    boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
     borderRadius: "10px",
   };
 
